@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+main {
+  margin: 0 auto;
+}
+
+.anmlForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.anmlView {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+}
+
+li {
+  border: 1px solid blue;
+}
